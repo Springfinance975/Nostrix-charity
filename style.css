@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Playfair+Display:wght@700&display=swap');
+
+body { font-family: 'Open Sans', sans-serif; background: #f8f9fa; color: #333; line-height: 1.8; }
+h1, h2, h3 { font-family: 'Playfair Display', serif; color: #007bff; }
+.hero { background: linear-gradient(rgba(0,123,255,0.8), rgba(0,123,255,0.8)), url('https://via.placeholder.com/1920x800?text=Heartwarming+Charity+Hero'); background-size: cover; color: #fff; padding: 150px 0; text-align: center; }
+.navbar { background: #007bff !important; }
+.nav-link { color: #fff !important; font-weight: bold; }
+.nav-link:hover { color: #fd7e14 !important; }
+.section { padding: 80px 0; }
+.card { border: none; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.3s; }
+.card:hover { transform: translateY(-10px); }
+.btn-donate { background: #fd7e14; color: #fff; padding: 15px 40px; font-size: 1.5rem; border-radius: 50px; }
+.btn-donate:hover { background: #e06b00; }
+.btn-volunteer { background: #28a745; color: #fff; }
+footer { background: #007bff; color: #fff; padding: 40px 0; text-align: center; }
+@media (max-width: 768px) { .hero { padding: 100px 0; } .hero h1 { font-size: 2.5rem; } }
